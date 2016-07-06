@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+	color: #585858;
+}
+.container {
+	margin: 20px auto;
+	width: 500px;
+}
+.row {
+	clear: both;
+}
+#grid {
+	width: 500px;
+	height: 500px;
+	clear: both;
+}
+.grid {
+	background-color: #FFF;
+	border:1px solid #FBFBFB;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+}
+button {
+	background-color: #EA5455;
+	border: none;
+	color: #FFF;
+	font-size: 0.6em;
+	font-weight: bold;
+	padding: 10px;
+	text-transform: uppercase;
+}
+button:hover {
+	background-color: #D42C2D;
+}
+.colorPicker {
+	float: right;
+}
